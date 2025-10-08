@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<! psst. salut. ai găsit un cod secret pe care să-l dai persoanei care îți repară satsuma pentru a o regla. Codul este H482K. </!>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>PistonPals - Serviciu MSC</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #1e1e1e;
+color: #ffffff;
+margin: 0;
+padding: 0;
+}
+
+antet {
+imagine-de-fundal: url("https://staticdelivery.nexusmods.com/mods/2600/images/4869/4869-1708465593-1452366698.png");
+dimensiune-fundal: copertă;
+poziție-fundal: centru;
+repetare-fundal: fără-repetare;
+padding: 40px 25px;
+aliniere-text: centru;
+culoare: alb;
+}
+
+antet h1,
+antet p {
+culoare: alb;
+umbră-text: 1px 1px 4px negru;
+}
+
+h1 {
+margine: 0;
+dimensiune-font: 2.5em;
+}
+
+principal {
+afișare: grilă;
+grid-template-areas:
+"titlu titlu"
+"info reparații"
+"info reparații"
+"butoane butoane"
+"subsol subsol";
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+padding: 30px 20px;
+max-width: 1000px;
+margin: auto;
+}
+
+.title {
+grid-area: titlu;
+text-align: center;
+}
+
+.info {
+grid-area: info;
+}
+
+.repairs {
+grid-area: reparații;
+}
+
+.buttons {
+grid-area: butoane;
+text-align: center;
+}
+
+.buttons a {
+display: inline-block;
+margin: 10px;
+padding: 15px 25px;
+background-color: #1414B8;
+color: white;
+decorațiune-text: niciuna;
+raza-border: 10px;
+tranziție: culoare-fond 0.3s trecere;
+}
+
+.buttons a:hover {
+culoare-fond: #050554;
+}
+
+.repairs-list li {
+margine-jos: 0.5rem;
+}
+
+subsol {
+zonă-grilă: subsol;
+margine-sus: 50px;
+padding: 20px;
+dimensiune-font: 0.9em;
+culoare: #aaaaaa;
+culoare-fond: #282828;
+aliniere-text: centru;
+}
+
+.info-tab {
+margine-sus: 40px;
+padding: 15px;
+bord: 1px solid #444;
+raza-border: 8px;
+culoare-fond: #2a2a2a;
+}
+
+@media (lățime maximă: 768px) {
+main {
+grid-template-areas:
+"title"
+"info"
+"repairs"
+"buttons"
+"footer";
+grid-template-columns: 1fr;
+}
+}
+</style>
+</head>
+<body>
+<div style="text-align: right; padding: 1rem; font-size: 0.9rem;">
+<a href="https://piston-pals.vercel.app">🇬🇧 <strong>Engleză</strong> </a> |
+<a href="https://pistonpals-gr.vercel.app">🇬🇷 Engleză</a> |
+<a href="https://pistonpals-bg.vercel.app">🇧🇬 Bulgară </a>
+</div>
+
+<header>
+<h1>PistonPals.net</h1>
+<p>Punctul dvs. de lucru pentru reparații Satsuma</p>
+</header>
+
+<main>
+<section class="title">
+<h2>Aveți nevoie de o reparație??</h2>
+<p>Încărcați fișierul salvat mai jos.</p>
+</section>
+
+<section class="info">
+<h3>Despre PistonPals</h3>
+<p>PistonPals este un proiect al fanilor, creat cu ideea ca oamenii din spatele PistonPals să ajute oamenii reparându-și Satsuma-urile. Indiferent dacă Satsuma ta este stricată sau posedată, o vom repara și te vom pune din nou pe drum.</p>
+
+<h3>🤔Cum funcționează</h3>
+<ol>
+<li>Încarcă-ți salvarea, apoi oferă-ne câteva detalii.</li>
+<li>Contactează-ne dacă dorești să oferi mai multe detalii.</li>
+<li>Vom verifica Satsuma ta și o vom repara pentru tine.</li>
+<li>Vei primi salvarea actualizată prin e-mail sau acolo unde ne-ai trimis un mesaj, dacă ne-ai oferit mai multe detalii.</li>
+</ol>
+
+<section class="buttons">
+<a href="https://forms.gle/VDC9i5etyKtmW1cY6" target="_blank">
+<i class="fas fa-upload"></i> Încarcă salvarea
+</a>
+<a href="https://forms.gle/aPJUzBheyWYouBsYA" target="_blank">
+<i class="fas fa-envelope"></i> Contact Noi
+</a>
+<a href="https://forms.gle/VXufLJGVjwcqHWpcA" target="_blank">
+<i class="fas fa-comments"></i>Lasă un comentariu
+</a>
+</section>
+
+<h3>🛠️Ce reparăm</h3>
+<ul>
+<li>✅ Motor lipsă sau transferat de bani</li>
+<li>✅ Motorul nu pornește sau Satsuma nu se mișcă</li>
+<li>✅ Probleme de cablare sau asamblare</li>
+<li>❌ Nu instalăm moduri de joc pentru tine, deoarece nu avem acces la fișierele tale de joc. Putem regla Satsuma ta.</li>
+<li>✅ Îți putem oferi link-uri către moduri sau fișiere zip pentru moduri care nu sunt pe site-uri web.</li>
+</ul>
+
+<h3>Întrebări frecvente🤔</h3>
+<p><strong>Cât durează?</strong><br>Depinde. Dacă aveți nevoie de o reconstrucție a motorului, va dura 1-2 ore. Dacă este o reparație ușoară, va dura 10-40 de minute.</p>
+<p><strong>Îmi voi pierde progresul?</strong><br>Nu. Suntem dornici să nu schimbăm nimic în salvarea dvs., doar dacă spuneți acest lucru.</p>
+<p><strong>Sunt serviciile gratuite?</strong><br>Da. Este doar ceva ce facem pentru a ajuta comunitatea <strong>Mașina Mea de Vară</strong>.</p>
+
+<h3>ℹ️ Mai multe informații</h3>
+<img src="https://www.overtake.gg/attachments/picx1-min-png.679036/" alt="Satsuma car" style="height: 80px; border-radius: 20px;">
+<p>Acesta este un site creat pentru ca oamenii să contacteze alte persoane pentru a-și repara Satsuma-urile. Dacă nu știi ce este My Summer Car, este un joc bazat pe Unity, despre mecanică. Ai 19 ani și locuiești în Finlanda.
+
+Scopul jocului este... să suferi. Și să construiești o mașină de raliu!
+
+
+Dezvoltatorul a creat My Summer Car având la bază ideea de suferință și dragostea Finlandei pentru cursele de raliu!
+
+Ai: sete; foame; stres; urină. Părinții tăi au plecat în vacanță pe o insulă numită Tenerife.
+
+Fără tine. Și pentru că este anul 1995, nu există Instagram, TikTok sau orice alte rețele sociale.
+
+Așadar, singura modalitate de a-ți petrece timpul este să construiești vechea mașină a tatălui tău - un Datsun 100-A (numit Satsuma în MSC). Din șasiu gol.
+
+Da, va fi o muncă grea, dar va exista fericire sau mândrie dacă mașina pornește.
+</p>
+</section>
+
+<section class="repairs">
+<h3>🛠️ Reparații recente (Live 🔴)</h3>
+<iframe src="https://docs.google.com/spreadsheets/d/149urUZSzzsN4rnyYypLEC3-IWM_Y_75JRYVtEaui6xQ" width="100%" height="400" frameborder="0" style="border-radius: 10px; overflow: hidden;"></iframe>
+
+<section class="comments">
+<h3>🗣️ Comentarii recente</h3>
+<iframe
+src="https://docs.google.com/spreadsheets/d/1531NQITD4FrXXZ1GNwV4Uzh4yW6WkRQib1-oEVN-k24/edit?usp=sharing"
+width="100%"
+height="400"
+frameborder="0"
+style="border-radius: 12px; overflow: hidden;">
+</iframe>
+</section>
+
+<h3>#️⃣Satsumas Înregistrați</h3>
+<iframe src="https://docs.google.com/spreadsheets/d/1Mfban8k4CNF2rhPxQGdjdJUVaLRtROiJr3mYxqiK6YA/edit?usp=sharing" width="100%" height="400" frameborder="0" style="border-radius: 10px; overflow: hidden;"></iframe>
+
+<h3>Faceți cunoștință cu echipa</h3>
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px; max-width: 100%; margin-top: 1rem;">
+
+<!-- Konstantin (Stânga) -->
+<div style="flex: 1 1 48%; display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; min-width: 300px;">
+<img src="https://www.tuned1.at/wp-content/uploads/2024/09/bmw_e38_diesel_daily_bbs_tuned1_03-1536x1025.jpg" alt="Konstantin" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
+<div>
+<h4 style="margin: 0; color: black;">Konstantin</h4>
+<p style="margin: 0; font-size: 0.9rem; color: gray;">Proprietar, fondator, dezvoltator de site și lucrător 🛠️</p>
+<p style="font-size: 0.9rem; color: gray;">Bună! Sunt Konstantin, proprietarul, fondatorul, angajatorul și lucrătorul Piston Pals.
+Indiferent dacă Satsuma ta este stricată, posedată sau tocmai... <em>a dispărut</em>, o voi cârpi și te voi pune înapoi pe drumuri!</p>
+</div>
+</div>
+
+<!-- Denis (Dreapta) -->
+<div style="flex: 1 1 48%; display: flex; align-items: center; background: white; padding: 1rem; border-radius: 12px; min-width: 300px;">
+<img src="https://images.carid.com/inspiration/audi/s7/45/1.jpg" alt="Denis" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; margin-right: 1rem;">
+<div>
+<h4 style="margin: 0; color: black;">Denis</h4>
+<p style="margin: 0; font-size: 0.9rem; color: gray;">Coproprietar, cofondator și coleg 🛠️</p>
+<p style="font-size: 0.9rem; color: gray;">Bună! Sunt Denis, coproprietar și cofondator al PistonPals. Eu și Konstantin ne dedicăm menținerii Satsumei tale în cea mai bună stare de funcționare.
+Indiferent dacă Satsuma ta are nevoie de reparații, restaurare sau atenție de specialitate, trimite-ne salvarea ta de pe buton și o vom rezolva.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<p>&copy; Piston Pals 2025. Nu suntem afiliați în niciun fel cu Amistech Games.</p>
+</footer>
+</body>
+</html>
